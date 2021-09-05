@@ -16,3 +16,4 @@ nataak848@gmail.com
 *Work experience:*
   
 2010 - YTD: Sky Media -Media Manager.
+No work  experience in IT.
