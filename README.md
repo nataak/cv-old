@@ -1,2 +1,2 @@
-# rsschool-cv
-rsschool-cv
+# cv-md
+https://nataak.github.io/rsschool-cv/cv
