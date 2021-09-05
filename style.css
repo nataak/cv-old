@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #E4E6E7;
+}
+
+.header {
+  display: flex;
+  min-height: 600px;
+
+}
+
+.image {
+  flex-basis: 35%;
+  background-color: #C0D8DE;
+}
+
+.info {
+  flex-basis: 65%;
+
+}
+
+.image__logo {
+  display: block;
+  border-radius: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__header {
+  margin: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.name {
+  font-weight: 900;
+  color: #222;
+}
+
+.header__subheader {
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+}
+
+.info {
+  text-align: center;
+}
+
+.info__wrapp {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  text-decoration: none;
+  color: #222222;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.social__linkeid:hover {
+  cursor: pointer;
+  fill: #666666;
+}
+
+.education__block {
+  min-height: 80px;
+  width: 800px;
+  background-color: #222222;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education__header {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.education__info {
+  color: #222222;
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.educatinon__p {
+  text-align: start;
+  margin-left: 70px;
+  color: #999999;
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  min-height: 600px;
+}
+
+.main__block {
+  flex-basis: 35%;
+  background-color: #C0D8DE;
+}
+
+.work__experience {
+  min-height: 80px;
+  width: 800px;
+  background-color: #222222;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  width: 300px;
+  height: 5px;
+  background: #828282;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.contact{
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: center;
+}
+.contact__mail{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.mail-link{
+  display: block;
+  text-decoration: none;
+  color: #666666;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mail-link:hover{
+  color: #222222;
+}
