@@ -119,6 +119,10 @@ ul {
 
 }
 
+.h {
+  text-align: center;
+}
+
 .education__info {
   color: #807255;
   font-weight: 500;
@@ -353,7 +357,7 @@ ul {
 
 .school {
   display: block;
-  
+
   text-decoration: none;
 }
 
@@ -382,4 +386,37 @@ ul {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+/* md-размер (<=991px) */
+@media screen and (max-width: 991px) {
+
+  /* CSS для ширины от 768px до 991px */
+  .container {
+    max-width: 991px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #e4e6e7;
+    box-shadow: -5px 5px 20px 5px rgb(34 60 80 / 30%);
+  }
+
+  .image__logo {
+    display: block;
+    width: 220px;
+  }
+
+  .education__block {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  .education__header {
+    text-transform: uppercase;
+    color: #322f5a;
+    font-size: 26px;
+    font-weight: 700;
+  }
 }
