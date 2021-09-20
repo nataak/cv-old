@@ -568,3 +568,73 @@ ul {
     background-size: 60px 60px;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .flex-wrapper {
+    display: block;
+    margin-left: 40px;
+  }
+
+  .header__header {
+    font-size: 30px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 43% 57%;
+    height: 100%;
+  }
+
+  .card-links {
+    font-size: 20px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .header__header {
+    font-size: 26px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .header__header {
+    font-size: 26px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 47% 53%;
+    height: 100%;
+  }
+
+  .card-links {
+    font-size: 20px;
+    width: 80%;
+  }
+
+
+  .school__img {
+    width: 160px;
+    height: 60px;
+    background-image: url('../icons/rs_school_js.svg');
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+  }
+
+  .git__logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('../icons/github1.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+  }
+
+}
