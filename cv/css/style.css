@@ -338,6 +338,48 @@ ul {
   filter: brightness(0.85) contrast(1.2);
   background-size: 90% 100%;
 }
-.javascript-html{
+
+.javascript-html {
   text-align: left;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.school {
+  display: block;
+  
+  text-decoration: none;
+}
+
+.school:hover {
+  cursor: pointer;
+}
+
+
+.school__img {
+  width: 200px;
+  height: 100px;
+  background-image: url('../icons/rs_school_js.svg');
+  background-size: 200px 100px;
+
+}
+
+.year {
+  font-size: 26px;
+  color: #a7adc5;
+}
+
+.git__logo {
+  width: 70px;
+  height: 70px;
+  background-image: url('../icons/github1.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
